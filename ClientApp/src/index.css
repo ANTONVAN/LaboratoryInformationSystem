@@ -1,0 +1,11 @@
+﻿body {
+    
+}
+.button, .input, span {
+    border-radius: 0px;
+    text-transform: uppercase;
+}
+
+Field {
+    text-transform: uppercase;
+}

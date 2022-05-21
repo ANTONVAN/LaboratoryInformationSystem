@@ -1,0 +1,15 @@
+﻿CREATE DATABASE ILab;
+GO
+
+USE ILab;
+GO
+
+CREATE TABLE dbo.Departamentos(
+	Id int IDENTITY(1,1) NOT NULL,
+	Name nvarchar(50) NOT NULL,
+	CONSTRAINT PK_Departamentos PRIMARY KEY CLUSTERED (Id ASC)
+)
+
+INSERT INTO dbo.Departamentos values("LABORATORIO");
+INSERT INTO dbo.Departamentos values("PATOLOGIA");
+INSERT INTO dbo.Departamentos values("IMAGENOLOGIA");

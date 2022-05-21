@@ -1,0 +1,35 @@
+{
+  "name": "mern",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:5001/",
+  "dependencies": {
+    "@material-ui/icons": "^4.11.2",
+    "@mui-treasury/components": "^1.10.1",
+    "@mui-treasury/styles": "^1.13.1",
+    "axios": "^0.18.0",
+    "bootstrap": "^4.6.0",
+    "bulma": "^0.9.3",
+    "formik": "^2.2.9",
+    "material-table": "1.67",
+    "material-ui": "^0.20.2",
+    "react": "^16.13.1",
+    "react-bootstrap": "^1.5.2",
+    "react-bootstrap-date-picker": "^5.1.0",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
